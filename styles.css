@@ -1,0 +1,66 @@
+body{
+    background-image:radial-gradient(black,orange);
+}
+p{
+    color: white;
+    border: 3px solid blue;
+    border-radius: 3px;
+    height: 70px;
+    width: 250px;
+    background-image: radial-gradient(blue, white);
+    transition: 2S;
+}
+.cabeza{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items:center ;
+    gap: 15px;
+    
+}
+
+h1{
+    letter-spacing: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+p:hover{
+    transform: skew(15deg);
+}
+li{
+    list-style:inside;
+}
+.form{
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-content: space-between;
+    width: 30%;
+    
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+    transition: all 1s;
+}
+.comentario{
+    color: aliceblue;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+h2:hover{
+    
+    font-size: xx-large;
+    opacity: 0.2;
+}
+img{
+    transition: 1s;
+}
+img:hover{
+    transform: skewY(2deg);
+}
